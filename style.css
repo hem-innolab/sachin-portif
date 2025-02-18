@@ -160,7 +160,7 @@ header nav ul li a:hover {
 
 /* Education Section */
 #education {
-    background: linear-gradient(135deg, #1a1a1a, #333);
+    background: url('about-bg.jpg') no-repeat center center/cover;
     padding: 60px 0;
 }
 
@@ -325,23 +325,13 @@ footer {
 
 /* Contact Section */
 #contact {
-    background: url('contact-bg.jpg') no-repeat center center/cover;
     padding: 60px 0;
     position: relative;
 }
 
-#contact::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-}
-
 .contact-content {
     display: flex;
+    flex-direction: column;
     gap: 40px;
     position: relative;
     z-index: 1;
