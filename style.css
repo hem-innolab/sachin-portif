@@ -438,6 +438,17 @@ footer {
 .contact-form .btn:hover {
     background: #e65a50;
 }
+.highlight-email {
+    color: #b7ae9c; /* Use your preferred color */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200; /* Semi-bold */
+}
+
+.highlight-phone {
+    color: #f4c065; /* Use your preferred color */
+    font-weight:lighter; /* Optional: Make it bold */
+    font-family: 'Lato', sans-serif;
+}
 
 /* Animations */
 @keyframes fadeInLeft {
